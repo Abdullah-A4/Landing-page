@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
-    /* border: 1px solid gray; */
+     border: 1px solid gray; 
 }
 
 img {
@@ -9,7 +9,7 @@ img {
     height: auto;
 }
 
-.hero-background {
+.dark-background {
     background-color: #1f2937;
 }
 
@@ -95,12 +95,12 @@ img {
 .quote-background {
     background-color: #E5E7EB;
     padding: 10px 0px;
-    margin: 25px 0px;
+    margin: 100px 0px;
 }
 
 .quote {
     margin: 60px;
-    padding: 20px 150px;
+    padding: 10px 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -115,4 +115,43 @@ img {
 .THOR {
     font-weight: 900;
     font-size: 20px;
+}
+
+.blue-div {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    flex-direction: row;
+    color: white;
+    border-radius: 8px;
+}
+
+.yo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-div {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.signup-button2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.signup-div strong {
+    font-size: 24px;
 }
