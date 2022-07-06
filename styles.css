@@ -1,6 +1,11 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-Regular.ttf);
+}
+
 * {
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Roboto, 'Courier New', Courier, monospace;
     /* border: 1px solid gray; */
 }
 
